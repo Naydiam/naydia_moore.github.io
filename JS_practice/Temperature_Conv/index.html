@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion</title>
+    <link rel = "stylesheet" href = "style4.css">
+</head>
+<body>
+    <form>
+        <h1> Temperature Conversion:</h1>
+        <!--The value tag just sets the initial value in the box to 0-->
+        <input type = "number" id = "textbox" value = "0"> <br>
+        <input type ="radio" id ="toFar" name = "unit">
+        <label for ="toFar"> C -> F</label><br>
+
+        <input type ="radio" id ="toCel" name = "unit">
+        <label for ="toCel"> F -> C</label><br>
+
+        <button type = "button" onclick ="convert()" >submit</button>
+        <p id = "result"></p>
+    </form><br><br>
+    <a href = "/RandNumGuesser/Rnum.html" >Go Back</a>
+    <script src = "index.js"></script>
+</body>
+</html>

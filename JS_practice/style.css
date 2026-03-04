@@ -1,0 +1,32 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:2em;
+    background-color: rgb(236, 170, 216);
+   
+}
+#myCount{
+    display: block;
+    text-align: center;
+    font-size: 8em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(119, 49, 156);;
+}
+
+#btnCont
+{
+    text-align:center;
+}
+
+.buttons
+{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: rgb(119, 49, 156);
+    color:rgb(231, 158, 231);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.buttons:hover{
+    background-color:rgb(79, 30, 105) ;
+}
