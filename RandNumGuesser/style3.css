@@ -1,0 +1,22 @@
+body 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgba(101, 14, 184, 0.329);
+}
+
+#headers
+{
+    color: rgb(59, 21, 120);
+    text-align: center;
+}
+/*need to learn how to center submit button and input box >:(*/
+#userGuess
+{   display:block;
+   align-items: center;
+   
+}
+#answerBtn
+{
+   display:block;
+    text-align: center;
+}
